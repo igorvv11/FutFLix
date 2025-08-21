@@ -7,7 +7,7 @@ export const ContainerFav = styled.div`
     color: #fff;
 `;
 
-export const Grid = styled.div`
+export const ListaCards = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 15px;

@@ -1,19 +1,19 @@
 import { useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "../../store";
-import { Time } from "../../store/slices/timesSlice";
-import { toggleFavorito } from "../../store/slices/timesSlice";
 import { Header } from "../../components/Header";
+import { RootState } from "../../store";
 import { Banner, ContainerTime, Info } from "./style";
+import { toggleFavorito } from "../../store/slices/timesSlice";
 
-export const TimePage = () => {
-  const { id } = useParams<{ id: string }>();
+
+export const Time = () => {
+  const { id } = useParams();
   const dispatch = useDispatch();
   const time = useSelector((state: RootState) =>
-    state.times.lista.find((t: Time) => t.id === Number(id))
+    state.times.lista.find((t) => t.id === Number(id))
   );
   const favoritos = useSelector((state: RootState) => state.times.favoritos);
-  const ativo = favoritos.includes(Number(id ?? 0));
+  const ativo = favoritos.includes(Number(id));
 
   if (!time) {
     return (
@@ -38,14 +38,14 @@ export const TimePage = () => {
 
           <h3>Títulos</h3>
           <ul>
-            {time.titulos.map((titulo: string, i: number) => (
+            {time.titulos.map((titulo, i) => (
               <li key={i}>{titulo}</li>
             ))}
           </ul>
 
           <h3>Ídolos</h3>
           <ul>
-            {time.idolos.map((idolo: string, i: number) => (
+            {time.idolos.map((idolo, i) => (
               <li key={i}>{idolo}</li>
             ))}
           </ul>
