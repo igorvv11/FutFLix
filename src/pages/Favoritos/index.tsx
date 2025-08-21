@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { RootState } from "../../redux/store";
+import { RootState } from "../../store";
 import { Header } from "../../components/Header";
 import { CardTime } from "../../components/CardTime";
 import { ContainerFav, Grid } from "./style";
