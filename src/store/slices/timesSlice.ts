@@ -21,7 +21,7 @@ export const initialState: TimesState = {
       id: 1,
       nome: "Flamengo",
       escudo: "escudos/flamengo.png",
-      banner: "/banners/banner_flamengo.jpg",
+      banner: "/banners/banner_flamengo.jpeg",
       historia:
         "Fundado em 1895 no Rio de Janeiro, o Flamengo é um dos clubes mais populares do mundo. Conhecido como o 'Mengão', tem a maior torcida do Brasil.",
       titulos: [
@@ -35,7 +35,7 @@ export const initialState: TimesState = {
       id: 2,
       nome: "Palmeiras",
       escudo: "/escudos/palmeiras.png",
-      banner: "/banner_palmeiras.jpg",
+      banner: "/banners/banner_palmeiras.jpeg",
       historia:
         "Fundado em 1914, em São Paulo, o Palmeiras é o clube brasileiro com mais títulos nacionais, conhecido como 'Verdão'.",
       titulos: [
@@ -49,7 +49,7 @@ export const initialState: TimesState = {
       id: 3,
       nome: "Corinthians",
       escudo: "escudos/corinthians.png",
-      banner: "/banner_corinthians.jpg",
+      banner: "/banners/banner_corinthians.jpeg",
       historia:
         "Fundado em 1910, em São Paulo, o Corinthians tem a 'Fiel', uma das maiores torcidas do mundo. Conhecido como 'Timão'.",
       titulos: [
@@ -63,7 +63,7 @@ export const initialState: TimesState = {
       id: 4,
       nome: "São Paulo",
       escudo: "/escudos/saopaulo.png",
-      banner: "/banner_saopaulo.png",
+      banner: "/banners/banner_saopaulo.jpeg",
       historia:
         "Fundado em 1930, o São Paulo é o clube brasileiro mais vitorioso em competições internacionais.",
       titulos: [
@@ -77,7 +77,7 @@ export const initialState: TimesState = {
       id: 5,
       nome: "Santos",
       escudo: "escudos/santos.png",
-      banner: "/banner_santos.jpg",
+      banner: "/banners/banner_santos.jpeg",
       historia:
         "Fundado em 1912, o Santos ficou famoso mundialmente com Pelé, considerado o maior jogador da história.",
       titulos: [
@@ -91,7 +91,7 @@ export const initialState: TimesState = {
       id: 6,
       nome: "Grêmio",
       escudo: "escudos/gremio.png",
-      banner: "/banner_gremio.jpg",
+      banner: "banners/banner_gremio.jpeg",
       historia:
         "Fundado em 1903, em Porto Alegre, o Grêmio é conhecido como 'Imortal Tricolor' e tem forte tradição na Libertadores.",
       titulos: [
@@ -105,7 +105,7 @@ export const initialState: TimesState = {
       id: 7,
       nome: "Internacional",
       escudo: "escudos/inter.png",
-      banner: "/banner_inter.jpg",
+      banner: "/banners/banner_inter.jpeg",
       historia:
         "Fundado em 1909, em Porto Alegre, o Internacional é conhecido como 'Colorado' e tem grande rivalidade com o Grêmio.",
       titulos: [
@@ -119,7 +119,7 @@ export const initialState: TimesState = {
       id: 8,
       nome: "Atlético Mineiro",
       escudo: "escudos/atletico_mg.png",
-      banner: "/banner_atletico_mg.jpg",
+      banner: "/banners/banner_atletico_mg.jpeg",
       historia:
         "Fundado em 1908, em Belo Horizonte, o Atlético Mineiro é conhecido como 'Galo' e tem uma torcida apaixonada.",
       titulos: [
@@ -133,7 +133,7 @@ export const initialState: TimesState = {
       id: 9,
       nome: "Cruzeiro",
       escudo: "escudos/cruzeiro.png",
-      banner: "/banner_cruzeiro.jpg",
+      banner: "banners/banner_cruzeiro.jpeg",
       historia:
         "Fundado em 1921, em Belo Horizonte, o Cruzeiro é conhecido como 'Raposa' e tem tradição em títulos nacionais.",
       titulos: [
@@ -147,7 +147,7 @@ export const initialState: TimesState = {
       id: 10,
       nome: "Vasco da Gama",
       escudo: "escudos/vasco.png",
-      banner: "/banner_vasco.jpg",
+      banner: "/banners/banner_vasco.jpeg",
       historia:
         "Fundado em 1898, no Rio de Janeiro, o Vasco é conhecido como 'Gigante da Colina' e tem papel histórico na luta contra o racismo no futebol.",
       titulos: [
